@@ -173,6 +173,7 @@ line-height: 26px;
 
 .Popular-img img {
     width: 100%;
+    height: 550px;
 }
 
 
@@ -235,6 +236,44 @@ line-height: 26px;
 }
 
 
+
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer .logo{
+  display: flex;
+  margin-top: 100px;
+}
+.footer p{
+  max-width: 770px;
+  color: rgb(90, 90, 93);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 15px 0 30px;
+text-align: center;
+
+}
+.icon {
+  max-width: 882px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+.border {
+  width: 882px;
+  height: 2px;
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin: 20px 0 50px;
+}
+
 /* media Query  */
 
 /* small Decvice */
@@ -246,5 +285,8 @@ line-height: 26px;
     }
     .popular-tour,.row-1 ,.row-2 ,.row-3  {
       grid-template-columns: 1fr;
+    }
+    .border{
+      width: 100%;
     }
 }
